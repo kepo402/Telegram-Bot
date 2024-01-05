@@ -1,7 +1,7 @@
 import asyncio
 import nest_asyncio
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, filters, ApplicationBuilder
+from telegram.ext import CommandHandler, CallbackContext, MessageHandler, filters, ApplicationBuilder
 import sys
 
 if sys.platform.startswith('win'):
